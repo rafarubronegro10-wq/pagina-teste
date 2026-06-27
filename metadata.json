@@ -1,0 +1,6 @@
+{
+  "name": "Educa Arte - Painel de Férias",
+  "description": "Página de vendas oficial para o recurso pedagógico Painel de Férias da Educa Arte Materiais Oficiais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
