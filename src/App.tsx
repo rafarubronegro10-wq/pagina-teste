@@ -126,12 +126,12 @@ export default function App() {
             <div className="relative group rounded-3xl overflow-hidden border border-gray-150 bg-white shadow-sm w-full">
               <img
                 id="main-product-showcase"
-                src="/panel.webp"
-                alt="Painel de Férias Copa do Mundo"
+                src="https://educaartemateriaisoficial.com.br/wp-content/uploads/2026/06/29-1.webp"
+                alt="Painel Cantinho da Leitura Era Uma Vez"
                 className="w-full h-auto object-contain select-none transition-all duration-300 rounded-3xl cursor-zoom-in scale-100 hover:opacity-95"
                 onClick={() => setIsZoomed(true)}
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = "https://placehold.co/600x400/ff6f91/ffffff?text=Painel+de+Férias+Copa+do+Mundo";
+                  (e.target as HTMLImageElement).src = "https://placehold.co/600x400/ff6f91/ffffff?text=Painel+Cantinho+da+Leitura";
                 }}
               />
 
@@ -155,61 +155,46 @@ export default function App() {
           >
             
             {/* Heading Title Banner */}
-            <div className="bg-emerald-50 border border-emerald-100 text-[#2e7d32] text-xs sm:text-[13px] font-black py-2.5 px-3 rounded-2xl leading-relaxed flex items-center justify-center text-center shadow-xs">
-              <span>⚽🏆 PAINEL: APITOU O FIM DO PRIMEIRO TEMPO! AGORA É HORA DAS FÉRIAS! 🏆⚽</span>
+            <div className="bg-cyan-50 border border-cyan-100 text-[#00838f] text-xs sm:text-[13px] font-black py-2.5 px-3 rounded-2xl leading-relaxed flex flex-col items-center justify-center text-center shadow-xs">
+              <span className="tracking-wide uppercase text-[11px] opacity-75">CANTINHO DA LEITURA ERA UMA VEZ</span>
+              <span className="text-sm sm:text-base font-extrabold mt-1">📚✨ Painel Cantinho da Leitura “Era Uma Vez” ✨📚</span>
             </div>
 
             <p className="text-xs sm:text-[13px] text-gray-600 font-semibold leading-relaxed px-1">
-              Chegou o painel perfeito para deixar sua comemoração de férias ainda mais divertida e encantadora! 😍✨
+              Transforme sua sala de aula em um verdadeiro mundo encantado da imaginação! 🌟
+            </p>
+
+            <p className="text-xs sm:text-[13px] text-gray-600 font-semibold leading-relaxed px-1">
+              Este lindo painel decorativo foi criado especialmente para deixar o Cantinho da Leitura ainda mais acolhedor, colorido e mágico, despertando nas crianças o amor pelos livros e pela fantasia.
             </p>
 
             {/* Bullet lists feature */}
             <div className="bg-white/50 border border-gray-100/70 rounded-2xl p-4 space-y-3.5 text-xs sm:text-[13px] text-gray-600 font-bold leading-normal shadow-xs">
-              <div className="flex items-center gap-3">
-                <span className="text-lg leading-none select-none">🇧🇷</span>
-                <span>Tema Copa do Mundo</span>
+              <div className="flex items-center gap-3 text-[#e91e63]">
+                <span className="text-lg leading-none select-none">🩷</span>
+                <span className="font-extrabold">O arquivo contém:</span>
               </div>
-              <div className="flex items-center gap-3">
-                <span className="text-lg leading-none select-none">📸</span>
-                <span>Ideal para fotos e decoração da escola</span>
+              <div className="flex items-center gap-3 pl-1">
+                <Check className="w-4 h-4 text-emerald-500 stroke-[3]" />
+                <span>Painel em PDF de alta qualidade</span>
               </div>
-              <div className="flex items-center gap-3">
-                <span className="text-lg leading-none select-none">🎈</span>
-                <span>Perfeito para combinar com arcos de balões nas cores do Brasil</span>
+              <div className="flex items-center gap-3 pl-1">
+                <Check className="w-4 h-4 text-emerald-500 stroke-[3]" />
+                <span>38 páginas em tamanho A4</span>
               </div>
-              <div className="flex items-center gap-3">
-                <span className="text-lg leading-none select-none">🧒👦</span>
-                <span>Encanta as crianças e deixa o ambiente super alegre</span>
+              <div className="flex items-center gap-3 pl-1">
+                <Check className="w-4 h-4 text-emerald-500 stroke-[3]" />
+                <span>Medida aproximada montado: 1,70 m x 1,10 m</span>
               </div>
               
-              <div className="pt-2 border-t border-gray-100 flex items-center gap-3 text-[#ff8f00]">
-                <span className="text-lg leading-none select-none">📏</span>
-                <span className="font-extrabold text-[#e65100]">Tamanho Gigante</span>
-              </div>
-              <div className="flex items-center gap-3 pl-1">
-                <Check className="w-4 h-4 text-emerald-500 stroke-[3]" />
-                <span>Aproximadamente largura: 1,70m x altura: 1,20m</span>
-              </div>
-              <div className="flex items-center gap-3 pl-1">
-                <Check className="w-4 h-4 text-emerald-500 stroke-[3]" />
-                <span>Montagem em 45 folhas A4</span>
+              <div className="pt-2 border-t border-gray-100 flex items-center gap-3 text-[#2e7d32]">
+                <span className="text-lg leading-none select-none">💰</span>
+                <span className="font-extrabold text-[#2e7d32]">Valor: R$ 7,90</span>
               </div>
 
-              <div className="pt-2 border-t border-gray-100 flex items-center gap-3 text-emerald-600">
-                <span className="text-lg leading-none select-none">📥</span>
-                <span className="font-extrabold">Arquivo em PDF Digital</span>
-              </div>
-              <div className="flex items-center gap-3 pl-1 text-gray-500">
-                <Check className="w-3.5 h-3.5 text-gray-400 stroke-[2.5]" />
-                <span>Pronto para imprimir</span>
-              </div>
-              <div className="flex items-center gap-3 pl-1 text-gray-500">
-                <Check className="w-3.5 h-3.5 text-gray-400 stroke-[2.5]" />
-                <span>Fácil de montar</span>
-              </div>
-              <div className="flex items-center gap-3 pl-1 text-gray-500">
-                <Check className="w-3.5 h-3.5 text-gray-400 stroke-[2.5]" />
-                <span>Alta qualidade de resolução</span>
+              <div className="pt-2 border-t border-gray-100 flex items-start gap-3 text-[#d81b60] leading-normal font-extrabold">
+                <span className="text-lg leading-none select-none mt-0.5">✨</span>
+                <span>Leve mais encanto, imaginação e amor pela leitura para seus pequenos leitores! ❤️📖</span>
               </div>
             </div>
 
@@ -227,7 +212,7 @@ export default function App() {
               
               <a
                 id="btn-checkout-cta"
-                href="https://pagamento.educaartemateriaisoficial.com.br/checkout/v2/x5j052g5kzq2Awf5gwUf"
+                href="https://pagamento.educaartemateriaisoficial.com.br/checkout/v2/baHLdmSwxp7nPjg7dv4e"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-[#00bcd4] hover:bg-[#0097a7] text-white font-black text-xs sm:text-sm uppercase py-3.5 rounded-full tracking-wider transition-all active:scale-95 shadow-md hover:shadow-lg hover:scale-[1.01] flex items-center justify-center gap-2 cursor-pointer text-center"
@@ -339,7 +324,7 @@ export default function App() {
                   </div>
 
                   <p className="text-xs text-gray-600 leading-relaxed font-medium">
-                    Ficou simplesmente maravilhoso! Montei o painel na escola e fez o maior sucesso com as crianças. As fotos ficaram lindas e os pais elogiaram muito a decoração. Super fácil de montar! ⚽💚💛
+                    Ficou simplesmente maravilhoso! Montei o painel no nosso cantinho da leitura e fez o maior sucesso com as crianças. As ilustrações são lindas e os pais elogiaram muito a iniciativa. Super fácil de montar! 📚❤️✨
                   </p>
 
                   <div className="flex items-center gap-1 text-[9px] font-bold text-emerald-600 bg-emerald-50 py-0.5 px-2 rounded-full w-fit">
@@ -367,7 +352,7 @@ export default function App() {
                   </div>
 
                   <p className="text-xs text-gray-600 leading-relaxed font-medium">
-                    Perfeito para a despedida antes das férias! Usei com um arco de balões verde e amarelo e o resultado ficou encantador. O tamanho é excelente e a impressão ficou impecável. Recomendo demais! 🏆🇧🇷
+                    Perfeito para incentivar o hábito da leitura! Usei para decorar minha sala de aula e o resultado ficou encantador. O tamanho é excelente, as cores são vivas e a impressão ficou impecável. Recomendo demais! 📖🌟
                   </p>
 
                   <div className="flex items-center gap-1 text-[9px] font-bold text-emerald-600 bg-emerald-50 py-0.5 px-2 rounded-full w-fit">
@@ -395,7 +380,7 @@ export default function App() {
                   </div>
 
                   <p className="text-xs text-gray-600 leading-relaxed font-medium">
-                    Material lindo e de ótima qualidade! Imprimi em papel sulfite mesmo e ficou incrível. As crianças amaram o tema futebol e tiraram muitas fotos no painel. Vale muito a pena! 📸⚽
+                    Material lindo e de ótima qualidade! Imprimi em papel sulfite mesmo e as cores ficaram perfeitas. As crianças amaram os personagens do "Era Uma Vez" e ficaram super motivadas para ler. Vale muito a pena! 📚🎨
                   </p>
 
                   <div className="flex items-center gap-1 text-[9px] font-bold text-emerald-600 bg-emerald-50 py-0.5 px-2 rounded-full w-fit">
@@ -423,7 +408,7 @@ export default function App() {
                   </div>
 
                   <p className="text-xs text-gray-600 leading-relaxed font-medium">
-                    Prático e encantador! Recebi o PDF na hora, a montagem foi bem fácil e o painel deixou o ambiente super alegre. Foi um diferencial na decoração de férias da minha turma. 🥰🎈
+                    Prático e encantador! Recebi o PDF na hora após a compra, a montagem foi muito fácil e o painel deixou o ambiente super alegre e acolhedor. Foi um diferencial fantástico na nossa escola! 🥰📖
                   </p>
 
                   <div className="flex items-center gap-1 text-[9px] font-bold text-emerald-600 bg-emerald-50 py-0.5 px-2 rounded-full w-fit">
@@ -569,7 +554,7 @@ export default function App() {
 
             {/* Lightbox panel info text */}
             <div className="absolute top-4 left-4 text-white text-xs font-black uppercase tracking-wider bg-black/40 py-1.5 px-3 rounded-full border border-white/5 select-none hidden sm:block">
-              🔎 Ampliar Painel de Férias
+              🔎 Ampliar Painel do Cantinho
             </div>
 
             {/* Centered zoomed image */}
@@ -582,16 +567,16 @@ export default function App() {
               onClick={(e) => e.stopPropagation()} // Prevent clicking image from closing modal
             >
               <img
-                src="/panel.webp"
-                alt="Painel de Férias Copa do Mundo Zoom"
+                src="https://educaartemateriaisoficial.com.br/wp-content/uploads/2026/06/29-1.webp"
+                alt="Painel Cantinho da Leitura Era Uma Vez Zoom"
                 className="w-full h-auto max-h-[80vh] object-contain rounded-2xl select-none"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = "https://placehold.co/1200x800/ff6f91/ffffff?text=Painel+de+F%C3%A9rias+Copa+do+Mundo";
+                  (e.target as HTMLImageElement).src = "https://placehold.co/1200x800/ff6f91/ffffff?text=Painel+Cantinho+da+Leitura";
                 }}
               />
               {/* Overlay description in modal */}
               <div className="bg-black/70 backdrop-blur-xs text-white p-3 text-center text-xs sm:text-[13px] font-bold border-t border-white/5 font-sans leading-relaxed select-none">
-                🇧🇷 Tema Futebol &amp; Copa do Mundo • Tamanho: 1,70m x 1,20m (45 Folhas A4)
+                📚 Painel Cantinho da Leitura “Era Uma Vez” • Tamanho: 1,70 m x 1,10 m
               </div>
             </motion.div>
           </motion.div>
